@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url('hamburguer3.jpg');
+    width: 100%;
+    height: 25vw;
+    background-position: center center;
+    background-size: cover;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.342);
+}
+div.logo{
+    position: absolute;
+    background-color: white;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    top: 15vw;
+    left: 10vw;
+    background: rgba(255, 255, 255, 0.37);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.7px);
+    -webkit-backdrop-filter: blur(5.7px);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+}
+img.imglogo{
+    position: relative;
+    width: 15vw;
+    display: block;
+    margin: auto;
+    top: 10%;
+    
+}
+iframe{
+    width: 40vw;
+    height: 45vw;
+    border: 1px solid black;
+    margin-top: 20vw;
+    margin-left: 10vw;
+}
+h1{
+    position: absolute;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bolder;
+    margin-top: 35vw;
+    margin-left: 10vw;
+}
+h2{
+    position: absolute;
+    color: yellow;
+    font-size: 1.5em;
+    margin-top: 28vw;
+    right: 5vw;
+
+}
+main{
+    width: 100vw;
+    background-color: rgba(240, 248, 255, 0.541);
+    height: fit-content;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto;
+    margin-top: 30vw;
+}
+div.imgparalaxe{
+    background-image: url('hamburguer1.jpeg');
+    width: 100vw;
+    height: 60vw;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+div.promo1{
+    position: relative;
+    left: 40vw;
+    top: 2.5vw;
+    width: 50vw;
+    height: 55vw;
+    background: rgba(255, 255, 255, 0.37);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.7px);
+    -webkit-backdrop-filter: blur(5.7px);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+}
+h3{
+    background-image: linear-gradient(90deg,#00ffea,#6036f9,#f32ea7);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color:transparent;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h6{
+    color:rgb(0, 0, 0);
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p{
+    text-align: center;
+    font-size: 1.5em;
+    
+}
